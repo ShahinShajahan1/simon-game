@@ -3,7 +3,7 @@ var level =0;
 var buttonColours=["red","blue","green","yellow"];
 var gamePattern=[];
 var userClickedPattern=[]
-
+alert("This game REQUIRES a keyboard key input to start. So if you are using a mobile device/phone it may not work")
 $(document).keypress(function() {
     if (!started) {
         $("#level-title").text("Level " + level);
